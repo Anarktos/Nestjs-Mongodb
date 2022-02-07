@@ -23,7 +23,8 @@ $ npm run start:prod
 
 # singup
 
-you need to provide a json composed of a username, email and password. After that, your username will be created and saved in a database.
+you need to provide a json composed of a username, email and password. After that, 
+your username will be created and saved in a database.
 
 {
   "username": "myUsername", # username must be a string of a min lenght of 3 carachters
@@ -37,7 +38,9 @@ you need to provide a json composed of a username, email and password. After tha
 
 # login
 
-after create your username, you shall to login with a json composed of your username and your password, that action returns a token to use as a Bearer Token to provide access to protected end points.
+after create your username, you shall to login with a json composed of your username 
+and your password, that action returns a token to use as a Bearer Token to provide access 
+to protected end points.
 
 {
   "username": "myUsername",
@@ -59,7 +62,9 @@ it is an unprotected end point, you can access without an autentication token.
 
 # movies/create
 
-this end point allows you to create a movie entry and save this in a database. You need to provide a json composed of title, director, genre, rating and release year. This end point returns your entry after save it. 
+this end point allows you to create a movie entry and save this in a database. 
+You need to provide a json composed of title, director, genre, rating and release year. 
+This end point returns your entry after save it. 
 
 {
   "title": "myMovie" # title must be a string of a min lenght of 3 carachters
