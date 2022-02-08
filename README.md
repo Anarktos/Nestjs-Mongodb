@@ -60,9 +60,9 @@ it is an unprotected end point, you can access without an autentication token.
 
 ```bash 
 
-# movies/create
+# /movies/create 
 
-this end point allows you to create a movie entry and save this in a database. 
+this end point use a bearer token and allows you to create a movie entry and save this in a database. 
 You need to provide a json composed of title, director, genre, rating and release year. 
 This end point returns your entry after save it. 
 

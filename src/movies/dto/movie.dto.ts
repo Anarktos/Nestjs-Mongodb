@@ -7,7 +7,7 @@ export class CreateMovieDto {
   title: string;
 
   @IsString()
-  @Length(3, 15)
+  @Length(3, 25)
   director: string;
 
   @IsString()
